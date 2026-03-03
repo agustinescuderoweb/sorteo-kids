@@ -43,8 +43,8 @@ export default function AdminChat() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
-      <div className="bg-white w-full max-w-2xl rounded-xl shadow-md p-6 flex flex-col">
+    <div className="flex min-h-screen bg-gray-100 flex flex-col items-center p-6">
+      <div className="mt-[150px] bg-white w-full max-w-2xl rounded-xl shadow-md p-6 flex flex-col">
         <h1 className="text-2xl font-bold mb-4 text-black">
           Chat Admin - Base de Datos
         </h1>
