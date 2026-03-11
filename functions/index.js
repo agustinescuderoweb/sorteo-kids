@@ -20,7 +20,7 @@ exports.sendEmail = onDocumentCreated(
       console.log("Enviando email a:", data.email);
 
       await resend.emails.send({
-        from: "Sorteo <onboarding@resend.dev>",
+        from: "Sorteo <registro@promo.agustinescuderoweb.com>",
         to: data.email,
         subject: "🎉 Confirmación de Registro",
         html: `
