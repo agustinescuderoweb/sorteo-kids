@@ -38,18 +38,13 @@ export default function Admin() {
   );
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center p-6">
+    <div
+          className="relative min-h-screen flex items-center justify-center p-6 bg-cover bg-center"
+          style={{ backgroundImage: "url('/img/fondo.jpeg')" }}
+        >
 
       {/* 🎥 VIDEO FONDO */}
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src="/video/wolf.mp4" type="video/mp4" />
-      </video>
+     <image ></image>
 
       {/* 🌫️ OVERLAY */}
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
