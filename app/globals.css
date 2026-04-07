@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@layer base {
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:hover {
+    -webkit-text-fill-color: #312783 !important;
+    box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 9999s ease-in-out 0s;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

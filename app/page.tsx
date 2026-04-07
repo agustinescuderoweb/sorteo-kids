@@ -118,7 +118,7 @@ export default function Registro() {
             onChange={handleChange}
             placeholder="D.N.I - Pasajero"
             required
-            className="`${montserrat.className} font-light border-2 border-[#d8df6d] p-3 rounded-[200px] focus:ring-2 focus:ring-sky-400 outline-none text-[#1e40af]"
+            className="`${montserrat.className} border-2 border-[#d8df6d] p-3 rounded-[200px] focus:ring-2 focus:ring-sky-400 outline-none text-[#1e40af] focus:text-[#312783]"
           />
         </div>
 
