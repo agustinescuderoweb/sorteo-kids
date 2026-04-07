@@ -11,13 +11,14 @@ const montserrat = Montserrat({
 
 export default function Registro() {
   const [form, setForm] = useState({
-    sellerId: "",
-    name: "",
-    dni: "",
-    fechaNacimiento: "",
-    email: "",
-    phone: "",
-  });
+  sellerId: "",
+  name: "",
+  dni: "",
+  edad: "",
+  email: "",
+  phone: "",
+  fechaNacimiento: ""
+})
 
   const [loading, setLoading] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
@@ -47,6 +48,7 @@ export default function Registro() {
           sellerId: "",
           name: "",
           dni: "",
+          edad: "",
           fechaNacimiento: "",
           email: "",
           phone: "",
